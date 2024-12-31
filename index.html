@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/screenStyle.css">
+</head>
+
+<body>
+    <header>
+        <h1>Sundhar's Art Gallery</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-image">
+            <img src="/asset/profile.jpg" alt="Profile Image">
+        </div>
+    </header>
+    <section id="home">
+        <h2>Welcome to My Art Gallery</h2>
+        <p>Explore my collection of graphite, charcoal, and pixel art portraits.</p>
+    </section>
+
+    <section class="photo-grid">
+
+        <div class="photo-grid-item">
+            <img src="/asset/ak.jpg" alt="Photo 1">
+            <div class="overlay">Tape Art</div>
+        </div>
+        <div class="photo-grid-item">
+            <img src="/asset/bharathi.jpg" alt="Photo 2">
+            <div class="overlay">Digital</div>
+        </div>
+        <div class="photo-grid-item">
+            <img src="/asset/bs.jpg" alt="Photo 3">
+            <div class="overlay">Scribble oil color art</div>
+        </div>
+        <div class="photo-grid-item">
+            <img src="/asset/hitler.jpg" alt="Photo 4">
+            <div class="overlay">Black paint</div>
+        </div>
+        <div class="photo-grid-item">
+            <img src="/asset/joker.jpg" alt="Photo 5">
+            <div class="overlay">Black & white Painting</div>
+        </div>
+        <div class="photo-grid-item">
+            <img src="/asset/nethaji.jpg" alt="Photo 6">
+            <div class="overlay">Graphite</div>
+        </div>
+        <div class="photo-grid-item">
+            <img src="/asset/mm.jpg" alt="Photo 7">
+            <div class="overlay">Using thread</div>
+        </div>
+        <div class="photo-grid-item">
+            <img src="/asset/lee.jpg" alt="Photo 8">
+            <div class="overlay">Using Graph</div>
+        </div>
+        <div class="photo-grid-item">
+            <img src="/asset/brid.jpg" alt="Photo 9">
+            <div class="overlay">Using Groundnut waste</div>
+        </div>
+        <div class="photo-grid-item">
+            <img src="/asset/cc.jpg" alt="Photo 10">
+            <div class="overlay">Charcoal</div>
+        </div>
+        <div class="photo-grid-item">
+            <img src="/asset/ratan tata.jpg" alt="Photo 11">
+            <div class="overlay">Paper Dots</div>
+        </div>
+        <div class="photo-grid-item">
+            <img src="/asset/vive.jpg" alt="Photo 11">
+            <div class="overlay">Tape</div>
+        </div>
+        <div class="photo-grid-item">
+            <img src="/asset/tesla.jpg" alt="Photo 11">
+            <div class="overlay">Pixel art</div>
+        </div>
+        <div class="photo-grid-item">
+            <img src="/asset/vus.jpg" alt="Photo 11">
+            <div class="overlay">Color</div>
+        </div>
+
+    </section>
+
+    <section id="slideShow" class="SlideShow">
+        <h2>Slide Show</h2>
+        <div class="slideshow-container">
+            <div class="slide active">
+                <img src="/asset/Slide show/thaththa_p.png" alt="Slide 1">
+            </div>
+            <div class="slide">
+                <img src="/asset/Slide show/thaththa_dr.jpg" alt="Slide 2">
+            </div>
+            <div class="slide">
+                <img src="/asset/Slide show/appa_amma_p.png" alt="Slide 3">
+            </div>
+            <div class="slide">
+                <img src="/asset/Slide show/appa_amma_dr.jpg" alt="Slide 4">
+            </div>
+            <div class="slide">
+                <img src="/asset/Slide show/fri_p.jpg" alt="Slide 5">
+            </div>
+            <div class="slide">
+                <img src="/asset/Slide show/fri_dr.jpg" alt="Slide 6">
+            </div> 
+        </div>
+
+        <div class="dots">
+            <span class="dot active" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="grid">
+            <!-- Add artwork images here -->
+            <div class="art-item"><img src="/asset/Gallery/appa_pic.jpg" alt="Artwork 1"></div>
+            <div class="art-item"><img src="/asset/Gallery/deva_pic.jpg" alt="Artwork 2"></div>
+            <div class="art-item"><img src="/asset/Gallery/waari mapla pic.jpg" alt="Artwork 3"></div>
+        </div>
+        <div class="grid">
+            <div class="art-item"><img src="/asset/Gallery/kar_pic.jpg" alt="Artwork 4"></div>
+            <div class="art-item"><img src="/asset/Gallery/rish_pic.jpg" alt="Artwork 5"></div>
+            <div class="art-item"><img src="/asset/Gallery/susi_pic.jpg" alt="Artwork 6"></div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Sundhar Karthick, an artist specializing in custom portraits...</p>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <h3>© 2024 Sundhar Karthick's Art Gallery</h3>
+            <p>Phone: <a href="9384316129"> +91 9384316129</a></p>
+            <p>Email: <a href="sundharkarthick03@gmail.com"> sundharkarthick03@gmail.com</a></p>
+        </div>
+        <div class="social-media">
+            <h3>Follow Me</h3>
+            <ul>
+                <li><a href="#" target="_blank">Youtube</a></li>
+                <li><a href="#" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>

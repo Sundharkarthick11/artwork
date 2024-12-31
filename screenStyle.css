@@ -1,0 +1,35 @@
+@media all and (max-width:450px) {
+    /*--header--*/
+
+    header {
+        padding: 8px 15px;
+    }
+
+    header h1 {
+        font-size: 1rem;
+        width: 100px;
+    }
+
+    nav {
+        width: 180px;
+    }
+
+    nav ul li {
+        margin: 0 8px;
+    }
+
+    nav ul li a {
+        font-size: 0.7rem;
+    }
+
+    /*--Gallery--*/
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+        gap: 15px;
+    }
+
+
+
+
+}
